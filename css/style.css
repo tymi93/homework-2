@@ -10,6 +10,8 @@
 
 .body{
     font-family: 'Roboto', sans-serif;
+    font-weight: 14px;
+    color: #212121;
 }
 
 .logo {
@@ -17,17 +19,16 @@
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.33;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     color: #2196F3;
 }
 
 .logo-color {
-    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.33;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     color: #000000;
 }
@@ -35,7 +36,7 @@
 .section-description {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
-    line-height: 1.33;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: #757575;
 }
@@ -45,7 +46,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.33;
+    line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
@@ -53,10 +54,9 @@
 
 .name-contact-people {
     font-family: 'Roboto', sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.33;
+    line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
@@ -65,7 +65,7 @@
 .work-contact-people {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    line-height: 1.33;
+    line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
     color: #757575;
@@ -76,11 +76,10 @@
 /* =============== HEADER =============== */
 
 .menu-link {
-    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.33;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: #212121;
 }
@@ -92,11 +91,10 @@
 }
 
 .contact {
-    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.33;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: #757575;
 }
@@ -115,11 +113,12 @@
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
-    line-height: 1.33;
+    line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    /* color: #FFFFFF; */
+    color: #FFFFFF;
+    background: #2F303A;
 }
 
 .modal-btn {
@@ -127,7 +126,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    line-height: 1.33;
+    line-height: 1.87;
     letter-spacing: 0.06em;
     cursor: pointer;
     color: #FFFFFF;
@@ -137,17 +136,70 @@
 }
 
 .sub-title {
-    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
-    line-height: 1.33;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #212121;
 }
 
 /* =============== /HERO =============== */
+
+/* =============== FUTER =============== */
+
+.logo-futer {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+    background: #2F303A;
+}
+
+.logo-futer-color {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    background: #2F303A;
+}
+
+.contact-map{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    background: #2F303A;
+}
+
+.contact-futer{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.02em;
+    color: #757575;
+    background: #2F303A;
+}
+
+.contact-futer:hover,
+.contact-futer:focus,
+.contact-map:hover,
+.contact-map:focus{
+    color: #2196F3;
+}
+
+/* =============== /FUTER =============== */
 
 /* =============== PORTFOLIO =============== */
 
@@ -156,10 +208,11 @@
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
     cursor: pointer;
+    
     color: #212121;
 }
 
@@ -169,7 +222,7 @@
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
     color: #FFFFFF;
@@ -181,7 +234,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2;
     letter-spacing: 0.06em;
     color: #212121;
 }
@@ -189,7 +242,7 @@
 .portfolio-section{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.87;
     letter-spacing: 0.03em;
     color: #757575;
 }
