@@ -33,10 +33,6 @@
     color: #000000;
 }
 
-.current{
-    color: #2196F3;
-}
-
 .section-description {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
@@ -86,6 +82,10 @@
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: #212121;
+}
+
+.current {
+    color: #2196F3;
 }
 
 .menu-link:hover,
